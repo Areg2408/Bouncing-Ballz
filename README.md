@@ -10,14 +10,15 @@ To get started with the Bouncing-Ballz, clone this repository to your local mach
 
 You need to have a modern web browser such as Google Chrome, Mozilla Firefox, or Microsoft Edge to run this game.
 
-### Installation
- **Clone the repository:**
-   ```bash
-   git clone [Repository URL]
+### How to Play
 
-How to Play
 Click on the Start button to begin the game.
 Click anywhere on the canvas to drop a ball from that position.
 The ball will bounce on the ground, and you score points if the color of the ball matches the ground section's color where it lands.
 The ground moves continuously, and its speed increases every 300 points scored.
 The game ends when the timer runs out. Click Restart to play again.
+
+### Installation
+ **Clone the repository:**
+   ```bash
+   git clone [Repository URL]
