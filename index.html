@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bouncing Ballz</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+
+<div class="container">
+    <div class="controlsContainer">
+        <div>Score: <span id="score">0</span></div>
+        <div>Timer: <span id="timer">5</span></div>
+        <div class="nextBallContainer">Next: <div id="nextBall"></div></div>
+    </div>
+
+<canvas id="gravityCanvas" width="600" height="400"></canvas>
+
+    <div class="gameControlContainer">
+    <button id="startButton">Start Game</button>
+
+        <div id="gameOverMenu" style="display: none;">
+        <p>Game Over!</p>
+        <button id="restartButton">Restart</button>
+        </div>
+
+</div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
